@@ -42,9 +42,9 @@
   --text-heading-md: 700 1.75rem/1 var(--font-family-baloo);
   --text-heading-sm: 700 1.125rem/1 var(--font-family-baloo);
 
-  --text-md: 600 1rem/1 var(--font-family-opensans);
-  --text-sm: 600 0.875/1 var(--font-family-opensans);
-  --text-xs: 600 0.75rem/1 var(--font-family-opensans);
+  --text-md: 400 1rem/1 var(--font-family-opensans);
+  --text-sm: 400 0.875/1 var(--font-family-opensans);
+  --text-xs: 400 0.75rem/1 var(--font-family-opensans);
 }
 
 body {
@@ -52,4 +52,9 @@ body {
   font: var(--text-md);
   color: var(--text-heading);
   background-color: var(--shape-background);
+}
+
+h1 {
+  font: var(--text-logo);
+  color: var(--pink);
 }
