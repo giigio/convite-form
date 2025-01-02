@@ -1,0 +1,29 @@
+.actions-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3rem;
+}
+
+button {
+  all: unset;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.75rem;
+
+  height: 3rem;
+  padding: 0.25rem 1.25rem;
+
+  font: var(--text-md);
+  background-color: var(--brand-dark);
+  color: var(--text-heading);
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  & img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
