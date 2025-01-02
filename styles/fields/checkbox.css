@@ -1,2 +1,7 @@
 .checkbox-wrapper + .checkbox-wrapper {
   margin-top: 0.75rem;
+}
+
+.checkbox-wrapper + .flex {
+  margin-top: 1.75rem;
+}
