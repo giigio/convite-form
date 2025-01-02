@@ -1,0 +1,66 @@
+@import url("checkbox.css");
+
+.colorpicker-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  & input[type="checkbox"] {
+    display: none;
+  }
+
+  & label {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 6px solid var(--input-stroke);
+    cursor: pointer;
+  }
+
+  & input[type="checkbox"]:checked + label {
+    outline: 2px solid var(--brand-light);
+  }
+
+  & .lightblue {
+    background: var(--brand-light);
+  }
+
+  & .navy {
+    background: var(--navy);
+  }
+
+  & .purple {
+    background: var(--purple);
+  }
+
+  & .fuschia {
+    background: var(--fuschia);
+  }
+
+  & .pink {
+    background: var(--pink);
+  }
+
+  & .red {
+    background: var(--danger);
+  }
+
+  & .orange {
+    background: var(--orange);
+  }
+
+  & .yellow {
+    background: var(--yellow);
+  }
+
+  & .lime {
+    background: var(--lime);
+  }
+
+  & .green {
+    background: var(--green);
+  }
+
+  & .cyan {
+    background: var(--cyan);
+  }
+}
