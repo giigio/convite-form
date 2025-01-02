@@ -86,3 +86,29 @@ input[type="datetime-local"] {
     }
   }
 }
+
+input {
+  &:invalid {
+    border: 1px solid var(--danger);
+  }
+
+  & + small {
+    font: var(--text-sm);
+    color: #78716c;
+    display: inline-block;
+    margin-top: 0.25rem;
+  }
+
+  &[required] + .error {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font: var(--text-sm);
+    color: var(--danger);
+    margin-top: 0.25rem;
+  }
+
+  &:not(:focus):valid + .error {
+    display: none;
+  }
+}
