@@ -14,7 +14,7 @@ main {
 
 aside {
   & .aside-container {
-    background: url("../assets/Background.png") center / cover no-repeat;
+    background: url("../../assets/Background.png") center / cover no-repeat;
     height: 97vh;
     width: 100%;
     border-radius: 0.75rem;
