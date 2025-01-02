@@ -43,7 +43,7 @@
   --text-heading-sm: 700 1.125rem/1 var(--font-family-baloo);
 
   --text-md: 400 1rem/1 var(--font-family-opensans);
-  --text-sm: 400 0.875/1 var(--font-family-opensans);
+  --text-sm: 400 0.875rem/1 var(--font-family-opensans);
   --text-xs: 400 0.75rem/1 var(--font-family-opensans);
 }
 
@@ -57,4 +57,17 @@ body {
 h1 {
   font: var(--text-logo);
   color: var(--pink);
+}
+
+h2 {
+  font: var(--text-heading-md);
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-1 {
+  flex: 1;
 }

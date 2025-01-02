@@ -1,3 +1,5 @@
+@import url("fields/index.css");
+
 #app {
   display: grid;
   grid-template-columns: 33.87% 66.13%;
@@ -7,11 +9,11 @@
 
 aside,
 main {
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 aside {
-  .aside-container {
+  & .aside-container {
     background: url("/assets/Background.png") center / cover no-repeat;
     height: 100%;
     width: 100%;
@@ -19,28 +21,29 @@ aside {
 
     padding: 2.25rem;
 
-    img {
+    & img {
       width: 2.86rem;
       height: 3rem;
       margin-bottom: 1rem;
     }
 
-    h1 {
+    & h1 {
       margin-bottom: 0.25rem;
     }
 
-    p {
+    & p {
       font-weight: 300;
     }
   }
 }
 
 main {
-  .main-container {
+  & .main-container {
     background: var(--shape-body);
     height: 100%;
     width: 100%;
     border-radius: 0.75rem;
+    padding: 5rem 20rem;
     overflow-y: auto;
   }
 }
